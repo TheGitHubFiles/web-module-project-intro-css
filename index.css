@@ -1,0 +1,154 @@
+/* start of css reset */
+html, body, div, span, applet, object, iframe, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 1px solid grey;  
+font-size: 100%;  
+
+vertical-align: baseline;
+
+max-width: 100%;  
+}
+html{
+font-size:62.5%;
+}
+body{
+box-sizing: border-box;
+line-height: 2;
+font-size: 1.5rem;
+font-family: 'Roboto Mono', monospace; 
+}
+/* End of css reset */
+body{
+    backgroun-color:#DDB9A3;
+}
+.circle{
+    display:inline-block;
+    width: 28%;
+    height:28%;
+    margin-left:9%;
+    
+    
+    
+    
+}
+.circle img{
+    border-radius: 50%;
+}
+section .text-top{
+    display: inline-block;
+    width: 60%;
+    text-align:center;
+    
+
+}
+section{
+    text-align:center;
+}
+section .text-top h1{
+    padding-left:5%;
+    font-size:5rem;
+    letter-spacing:4px;
+    font-family: 'Chelsea Market', cursive;
+}
+header nav a{
+    display:inline-block;
+    margin-bottom:4%;
+    margin-left:15%;
+    padding:10px 16px;
+    margin-top: 2%;
+    max-width: 100px;
+    text-align:center;
+    border-radius: 20px;
+    text-decoration:none;
+    color:white;   
+}
+footer nav a{
+    display:inline-block;
+    margin-bottom:4%;
+    margin-left:15%;
+    padding:10px 16px;
+    margin-top: 2%;
+    max-width: 100px;
+    text-align:center;
+    border-radius: 20px;
+    text-decoration:none;
+    color:white;
+}   
+.red{
+    background-color:#FF764E;
+}
+.blue{
+    background-color:#5ED3EB;
+}
+.yellow{
+    background-color:#FFCD69;
+}
+header nav{
+    display:inline-block;
+    width:100%;
+    justify-content: space-between;
+}
+section .text-top p{
+    display:block;
+    font-size:1.5rem;
+    letter-spacing: 2px;
+    
+}
+.first{
+    line-height:7;     
+}
+.second{
+    width:50%;
+    margin-left:23%
+}
+section.peach{
+    background-color:#e8b198;
+    padding:2%;
+    margin:4%;
+    color:white;
+}
+section.icons .campfire{
+    display: block;
+    width: 30%;
+    text-align:center;
+    padding-left:35%;
+    
+}
+
+section.icons .campfire img{
+    width:50%
+}
+section.icons .van{
+    display: block;
+    width: 30%;
+    text-align:center;
+    padding-left:35%;
+    margin-bottom:3%;
+}
+section.icons .van img{
+    width:50%
+}
+section.footer-img img{
+    display:block;
+    width:100%;
+    height:20em;
+}
+footer{
+    background-color:#F9E7DC;
+}
+span{
+    font-weight:700;
+}
+
