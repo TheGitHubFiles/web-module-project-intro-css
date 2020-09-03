@@ -15,7 +15,7 @@ margin: 0;
 padding: 0;  
 border: 1px solid grey;  
 font-size: 100%;  
-font: inherit;
+
 vertical-align: baseline;
 
 max-width: 100%;  
@@ -30,7 +30,9 @@ font-size: 1.5rem;
 font-family: 'Roboto Mono', monospace; 
 }
 /* End of css reset */
-
+body{
+    backgroun-color:#DDB9A3;
+}
 .circle{
     display:inline-block;
     width: 28%;
@@ -64,11 +66,34 @@ header nav a{
     display:inline-block;
     margin-bottom:4%;
     margin-left:15%;
-    padding-left:2%;
-    padding-right:2%;
+    padding:10px 16px;
     margin-top: 2%;
-    
-    
+    max-width: 100px;
+    text-align:center;
+    border-radius: 20px;
+    text-decoration:none;
+    color:white;   
+}
+footer nav a{
+    display:inline-block;
+    margin-bottom:4%;
+    margin-left:15%;
+    padding:10px 16px;
+    margin-top: 2%;
+    max-width: 100px;
+    text-align:center;
+    border-radius: 20px;
+    text-decoration:none;
+    color:white;
+}   
+.red{
+    background-color:#FF764E;
+}
+.blue{
+    background-color:#5ED3EB;
+}
+.yellow{
+    background-color:#FFCD69;
 }
 header nav{
     display:inline-block;
@@ -82,8 +107,7 @@ section .text-top p{
     
 }
 .first{
-    line-height:7;
-      
+    line-height:7;     
 }
 .second{
     width:50%;
@@ -100,7 +124,9 @@ section.icons .campfire{
     width: 30%;
     text-align:center;
     padding-left:35%;
+    
 }
+
 section.icons .campfire img{
     width:50%
 }
@@ -109,7 +135,20 @@ section.icons .van{
     width: 30%;
     text-align:center;
     padding-left:35%;
+    margin-bottom:3%;
 }
 section.icons .van img{
     width:50%
 }
+section.footer-img img{
+    display:block;
+    width:100%;
+    height:20em;
+}
+footer{
+    background-color:#F9E7DC;
+}
+span{
+    font-weight:700;
+}
+
