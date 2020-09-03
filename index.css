@@ -95,3 +95,21 @@ section.peach{
     margin:4%;
     color:white;
 }
+section.icons .campfire{
+    display: block;
+    width: 30%;
+    text-align:center;
+    padding-left:35%;
+}
+section.icons .campfire img{
+    width:50%
+}
+section.icons .van{
+    display: block;
+    width: 30%;
+    text-align:center;
+    padding-left:35%;
+}
+section.icons .van img{
+    width:50%
+}
